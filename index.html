@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel='icon' href='static/favicon.jfif' type='image/x-icon' sizes="16x16" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOD TAROT</title>
+<style>
+
+  .jumbotron {
+    background: url('static/IMG2.jpg')  center center / cover no-repeat;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+  }
+  .btn {
+    margin-left: 35px;
+    padding-left: 50px;
+    padding-right: 100px;
+    background-image: url('static/bnr.jpg') ;
+    height: 100vh;
+    
+  }
+  footer {
+    
+    
+    color: white;
+    background-color: black;
+    grid-area:footer ;
+   position:fixed;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   margin-top:5em;
+   padding:.5rem;
+   text-align:center;
+  }
+  hr{
+    color: white;
+  }
+  .card {
+    color: white;
+    padding: 100px;
+    background-image: url('static/tarotimg.jpg');
+  }
+
+  @media only screen  and (min-width : 1224px) {
+    .btn{
+      padding-left: 100px;
+      margin-left: 200px;
+    }
+    }
+ 
+</style>
+<script>
+
+</script>
+
+
+</head>
+<body class="  bg-dark ">
+  <!--navbar star-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">GOD TAROT,FUTURE TELLER</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/reading">DO READINGS</a>
+            <a class="nav-link" href="/splash">ONE CARD READING</a>
+            <!--a class="nav-link " href="#">Disabled</a-->
+          </div>
+        </div>
+      </nav>
+    <!--nav barr close-->
+
+
+
+    <div class="jumbotron jumbotron-dark bg-dark text-white  "  >
+      <div class="container">
+        <h1 class="display-4">WHAT IF YOU KNOW WHAT WILL HAPPEN IN YOUR FUTURE</h1>
+        <p class="lead">NOW SEE YOUR FUTURE FREE OF COST WITH TAROT CARDS AND CHANGE YOUR LIFE
+
+        </p>
+      </div>
+    </div>
+<!--button 1-->
+<button onclick = "location.href='/reading'" type="button" class="btn btn-dark mt-3 mb-3 ">DO READINGS</button>
+
+
+<!--button 1 closw-->
+<!--card start
+    <div class="card text-white bg-dark mb-3 d-flex justify-content-center" style="max-width: 18rem;">
+      <div class="card-header">Header</div>
+      </div> -->
+<!-- stop-->
+
+
+
+<!--button 2 start-->
+<button onclick= "location.href = '/splash'" type="button" class="btn btn-dark">ONE CARD READING</button>
+<!--button 2 stop-->
+   
+
+<div class="card text-center bg-dark" >
+  <div class="card-header bg-dark">
+    HOW TO GET READING 
+  </div>
+  <div class="card-body bg-dark">
+    <h5 class="card-title">CLICK ANY BUTTON FROM ABOVE AMD IT WILL LEND YOU TO A PAGE</h5>
+    <p class="card-text">AFTER LANDING ON PAGE SIMPLY CHOSE ONE TYPE OF READING AND SELLECT SOME CARDS WHICH USUALLY ATTRACTES YOU MOST AFTER THAT CLIK ON EACH CARD TO SEE EXPLANATION</p>
+   
+  </div>
+  <!--div class="card-footer text-muted"-->
+    
+  </div>
+</div>
+<div class="loader">
+	<div class="loader_inner"></div>
+</div>
+<hr/>
+<footer> &copy; copyright god tarot all rights reserved 2021,made by DEVELOPER BOY .MADE WITH PYTHON IN FLASK </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+</body>
+</html>
